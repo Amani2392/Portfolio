@@ -10,11 +10,11 @@ const Topbar = ({ menuActive, setMenuActive }) => {
             Amani Baba Haj
           </a>
           <div className="nav-bar-items">
-            <i class="fas fa-mobile-alt"></i>
+            <i className="fas fa-mobile-alt"></i>
             <span>+46 728 47 00 18</span>
           </div>
           <div className="nav-bar-items">
-            <i class="fas fa-at"></i>
+            <i className="fas fa-at"></i>
             <span>amani.babahaj@gmail.com</span>
           </div>
         </div>
