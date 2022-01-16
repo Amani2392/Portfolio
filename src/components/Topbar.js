@@ -7,7 +7,7 @@ const Topbar = ({ menuActive, setMenuActive }) => {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Amani Baba Haj
+            ABH
           </a>
           <div className="nav-bar-items">
             <i className="fas fa-mobile-alt"></i>
