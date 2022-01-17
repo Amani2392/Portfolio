@@ -15,7 +15,7 @@ const Menu = ({ menuActive, setMenuActive }) => {
           <a href="#portfolio"> About me </a>
         </li>
         <li onClick={() => setMenuActive(false)}>
-          <a href="#contact"> Contact </a>
+          <a href="#contact"> Get in touch </a>
         </li>
       </ul>
     </div>

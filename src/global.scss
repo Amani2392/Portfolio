@@ -3,3 +3,11 @@ $mainColoor: #2B0548;
 $secondColor: #d35d2e;
 $secondColoor: #4630AB;
 $tagLine: #6669C5;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
