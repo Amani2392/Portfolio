@@ -2,11 +2,11 @@ import "./App.scss";
 import React from "react";
 import { useState } from "react";
 import Topbar from "../src/components/Topbar";
-import Intro from "../src/components/Intro";
-import Portfolio from "../src/components/Portfolio";
-import Work from "../src/components/Work";
-import Contact from "../src/components/Contact";
 import Menu from "../src/components/Menu";
+import Intro from "../src/components/Intro";
+import Projects from "../src/components/Projects";
+import Portfolio from "../src/components/Portfolio";
+import Contact from "../src/components/Contact";
 
 const App = () => {
   const [menuActive, setMenuActive] = useState(false);
@@ -16,8 +16,8 @@ const App = () => {
       <Menu menuActive={menuActive} setMenuActive={setMenuActive} />
       <div className="sections">
         <Intro />
+        <Projects />
         <Portfolio />
-        <Work />
         <Contact />
       </div>
     </div>

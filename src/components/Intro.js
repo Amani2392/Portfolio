@@ -18,7 +18,7 @@ const Intro = () => {
           <h1>Amani Baba Haj</h1>
           <h3>JavaScript Developer</h3>
         </div>
-        <a href="#portfolio">
+        <a href="#Projects">
           <img
             src="assets/down-arrow-png-transparent-down-arrow.png"
             alt="arrow down"
