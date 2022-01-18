@@ -18,6 +18,7 @@ const Contact = () => {
   return <div className="contact" id="contact">
  
     <div className="left">
+      <h1>Get in touch!</h1>
      <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="name" />

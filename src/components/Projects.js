@@ -33,7 +33,7 @@ export default function Projects() {
       icon: "React Redux Todo App",
       title: "React Redux Todo App",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      img: "assets/react-redux-todo-app.png",
       href: "",
     },
     {
@@ -49,7 +49,7 @@ export default function Projects() {
       icon: "",
       title: "Vanilla JS Todo App",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      img: "assets/vanilla-js-todo.png",
       href: "",
     },
   ];

@@ -18,6 +18,8 @@
         display: flex;
         flex: 1;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         form {
             width: 70%;
             height: 70%;
@@ -40,7 +42,7 @@
             width: 150px;
             height: 30px;
             color: white;
-            background-color: crimson;
+            background-color: $mainColor;
             border: none;
             border-radius: 10px;
             font-weight: 500;
