@@ -28,11 +28,11 @@
         margin-right: 40px;
       }
 
-      .nav-bar-items {
+      .nav-bar-items{
         display: flex;
         align-items: center;
         margin-left: 30px;
-
+        text-decoration: none;
         .fas {
           font-size: 18px;
           margin-right: 5px;
@@ -41,6 +41,7 @@
         span {
           font-size: 15px;
           font-weight: 500;
+          
         }
       }
     }
@@ -68,7 +69,6 @@
   &.active {
     background-color: $mainColor;
     color: white;
-
     .hamburger-menu {
       span {
         &:first-child {

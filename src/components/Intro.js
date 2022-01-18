@@ -17,13 +17,13 @@ const Intro = () => {
           <h2>Hi there, I'm</h2>
           <h1>Amani Baba Haj</h1>
           <h3>JavaScript Developer</h3>
-        </div>
         <a href="#Projects">
           <img
             src="assets/down-arrow-png-transparent-down-arrow.png"
             alt="arrow down"
           />
         </a>
+        </div>
       </div>
     </div>
   );
