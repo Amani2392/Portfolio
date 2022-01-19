@@ -33,6 +33,9 @@
         align-items: center;
         margin-left: 30px;
         text-decoration: none;
+        @include mobile{
+          display: none;
+        }
         .fas {
           font-size: 18px;
           margin-right: 5px;
