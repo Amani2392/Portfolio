@@ -61,7 +61,7 @@
   "bugs": {
     "url": "https://github.com/Amani2392/Portfolio/issues"
   },
-  "homepage": "https://github.com/Amani2392/Portfolio#readme",
+  "homepage": "./",
   "devDependencies": {
     "mini-css-extract-plugin": "2.4.5"
   }
