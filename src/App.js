@@ -16,8 +16,8 @@ const App = () => {
       <Menu menuActive={menuActive} setMenuActive={setMenuActive} />
       <div className="sections">
         <Intro />
-        <Projects />
         <Portfolio />
+        <Projects />
         <Contact />
       </div>
     </div>

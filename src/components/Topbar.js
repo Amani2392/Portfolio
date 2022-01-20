@@ -7,17 +7,9 @@ const Topbar = ({ menuActive, setMenuActive }) => {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            ABH
+            Amani Baba Haj
           </a>
-          <div className="nav-bar-items">
-            <i className="fas fa-mobile-alt"></i>
-            <span>+46 728 47 00 18</span>
-            
-          <a href="#contact" className={"nav-bar-items "+ (menuActive && "active")}>
-            <i className="fas fa-at"></i>
-            <span className={"email "+ (menuActive && "active")}>amani.babahaj@gmail.com</span>
-          </a>
-          </div>
+     
 
         </div>
         <div className="right">

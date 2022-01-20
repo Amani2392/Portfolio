@@ -7,7 +7,7 @@ const Intro = () => {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="https://media3.giphy.com/media/USV0ym3bVWQJJmNu3N/giphy.gif?cid=ecf05e47c2pk1465mup9vp2a341bhv5nsvsdaf7vmt8lje9e&rid=giphy.gif&ct=g"
+            src="https://cdn.dribbble.com/users/1099127/screenshots/14424196/media/095e190c4e31def255c16f4c7e98f619.gif"
             alt="logo"
           />
         </div>
