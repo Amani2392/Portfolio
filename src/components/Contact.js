@@ -32,38 +32,38 @@ const Contact = () => {
         </div>
         <nav>
           <ul>
-            <li>
+            <li key="item1">
               <a
                 href="https://www.instagram.com/amani_baba_haj/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
                 <span>Instagram</span>
               </a>
             </li>
-            <li>
+            <li key="item2">
               <a
                 href="https://www.linkedin.com/in/amani-baba-haj/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-linkedin-in"></i>
+                <i className="fab fa-linkedin-in"></i>
                 <span>Linkedin</span>
               </a>
             </li>
-            <li>
+            <li key="item3">
               <a
                 href="https://github.com/Amani2392"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
                 <span>Github</span>
               </a>
             </li>
-            <li>
-              <a href="#">
+            <li key="item4">
+              <a href="#contact">
                 {" "}
                 <i className="fas fa-mobile-alt"></i>
                 <span>+46 728470018</span>

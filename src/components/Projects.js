@@ -10,7 +10,7 @@ export default function Projects() {
       title: "Final Project",
       desc: "As a graduation project at Salt, my mob and I built an app that displays and manages Salt's company devices. The app is built using React, Google OAuth, Express, Mongoose, JWT, and MongoDB The client code can be found here. and the server code can be found here.",
       img: "assets/finalProject.png",
-      href: "",
+      href: "https://slap-public.herokuapp.com/",
     },
     {
       id: "2",
