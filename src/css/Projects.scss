@@ -44,9 +44,7 @@
       justify-content: center;
 
       .item {
-        width: 700px;
-        height: 100%;
-        background-color: white;
+        width: 800px;
         border-radius: 20px;
         display: flex;
         align-items: center;
@@ -92,15 +90,17 @@
               }
             }
             h2 {
-              font-size: 20px;
+              font-size: 25px;
+              margin-bottom: 10px;
               @include mobile {
                 font-size: 10px;
               }
             }
             p {
-              font-size: 13px;
+              font-size: 18px;
               @include mobile {
                 display: none;
+
               }
             }
             a {
@@ -137,8 +137,7 @@
           overflow: hidden;
 
           img {
-            width: 350px;
-            transform: rotate(-10deg);
+            width: 450px;
             @include mobile {
               width: 130px;
             }

@@ -27,6 +27,9 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="right">
+        <div className="img-container">
+          <img src="assets/getintouch.svg" alt=""/>
+        </div>
         <nav>
           <ul>
             <li>
@@ -60,7 +63,6 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              {" "}
               <a href="#">
                 {" "}
                 <i className="fas fa-mobile-alt"></i>

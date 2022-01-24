@@ -7,56 +7,48 @@ export default function Projects() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: " My Portfolio",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img: "assets/portfolio.png",
-      href: "https://github.com/Amani2392/Portfolio",
-    },
-    {
-      id: "2",
-      icon: "./assets/mobile.png",
       title: "Final Project",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      desc: "As a graduation project at Salt, my mob and I built an app that displays and manages Salt's company devices. The app is built using React, Google OAuth, Express, Mongoose, JWT, and MongoDB The client code can be found here. and the server code can be found here.",
       img: "assets/finalProject.png",
       href: "",
     },
     {
-      id: "3",
+      id: "2",
       icon: "./assets/globe.png",
       title: "Hack Day Project",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      desc: "A fullstack app build with React and Express in eighth hours during my Salt Hackday. It allows users to search authors in the Gutenberg Project and download books in epub format.",
       img: "assets/weatherapp.png",
       href: "https://github.com/Amani2392/HacKDay-SALT",
     },
     {
-      id: "4",
+      id: "3",
       icon: "React Redux Todo App",
       title: "React Redux Todo App",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      desc: "A todo react app using Redux for state managment.",
       img: "assets/react-redux-todo-app.png",
-      href: "",
+      href: "https://github.com/Amani2392/Todo-App-with-React-Redux",
+    },
+    {
+      id: "4",
+      icon: "",
+      title: "React Todo App",
+      desc: "A react todo app.",
+      img: "assets/react todo app.png",
+      href: "https://github.com/Amani2392/React-todo-app-",
     },
     {
       id: "5",
       icon: "",
-      title: "React Todo App",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "assets/react todo app.png",
-      href: "",
-    },
-    {
-      id: "6",
-      icon: "",
       title: "Vanilla JS Todo App",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      desc: "A vanilla JS with state managment.",
       img: "assets/vanilla-js-todo.png",
-      href: "",
+      href: "https://github.com/Amani2392/Todo-app-javaScript-with-state",
     },
   ];
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 5)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 4)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
 
@@ -64,16 +56,12 @@ export default function Projects() {
     <div className="works" id="Projects">
       <div
         className="slider"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
+        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         {data.map((d) => (
           <div className="container">
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
                  <a href={d.href} target="_blank" rel="noreferrer"> 
