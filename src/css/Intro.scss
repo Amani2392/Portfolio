@@ -66,12 +66,41 @@
       }
       h3 {
         font-size: 30px;
-        color: #E5BF5C;
-
+        color: black;
+        background:linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+        max-width: 400px;
+        padding-left: 20px;
+        transform: rotate(2deg);
         @include mobile{
           font-size: 20px;
       }
     }
+    .ityped-cursor {
+      font-size: 2.2rem;
+      opacity: 1;
+      -webkit-animation: blink 0.3s infinite;
+      -moz-animation: blink 0.3s infinite;
+      animation: blink 0.3s infinite;
+      animation-direction: alternate;
+  }
+   
+  @keyframes blink {
+      100% {
+          opacity: 0;
+      }
+  }
+   
+  @-webkit-keyframes blink {
+      100% {
+          opacity: 0;
+      }
+  }
+   
+  @-moz-keyframes blink {
+      100% {
+          opacity: 0;
+      }
+  }
     a {
       position: absolute;
       bottom: 50px;
