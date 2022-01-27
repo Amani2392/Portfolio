@@ -14,6 +14,11 @@
       position: absolute;
       border-radius: 50%;
       z-index: 2;
+      @include mobile {
+        margin-left: 10px;
+        width: 180px;
+        margin-top: 80px;
+      }
     }
     .button-53 {
       top: 460px;
@@ -44,6 +49,13 @@
       user-select: none;
       -webkit-user-select: none;
       touch-action: manipulation;
+      @include mobile {
+        margin-left: 0;
+        left: 10px;
+        top: 400px;
+        font-size: 12px;
+        max-width: 180px;
+      }
     }
     .button-53:focus {
       outline: 0;
@@ -75,8 +87,12 @@
       width: 150px;
       height: 150px;
       transform: rotate(-20deg);
+      @include mobile {
+        display: none;
+      }
     }
   }
+
   .text-container {
     margin-top: -115px;
     margin-left: 50px;
@@ -85,6 +101,11 @@
     font-weight: 100;
     a {
       color: #93b3d2;
+    }
+    @include mobile {
+      margin-top: 225px;
+      font-size: 12px;
+      margin-left: 5px;
     }
   }
 
@@ -121,7 +142,6 @@
     ul {
       list-style: none;
       padding-left: 0;
-
       h1 {
         font-size: 20px;
         margin: 20px;
@@ -137,6 +157,11 @@
       li {
         font-size: 11px;
       }
+    }
+    @include mobile {
+      margin-right: 20px;
+      max-height: 635px;
+      margin-top: 40px;
     }
   }
   .right:focus {
