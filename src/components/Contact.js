@@ -62,13 +62,6 @@ const Contact = () => {
                 <span>Github</span>
               </a>
             </li>
-            <li key="item4">
-              <a href="#contact">
-                {" "}
-                <i className="fas fa-mobile-alt"></i>
-                <span>+46 728470018</span>
-              </a>
-            </li>
           </ul>
         </nav>
       </div>
