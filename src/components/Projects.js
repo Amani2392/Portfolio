@@ -16,7 +16,7 @@ export default function Projects() {
       id: "2",
       icon: "./assets/globe.png",
       title: "Hack Day Project",
-      desc: "A fullstack app build with React and Express in eighth hours during my Salt Hackday. It allows users to search authors in the Gutenberg Project and download books in epub format.",
+      desc: "A fullstack app build with React and Express in eighth hours during my Salt Hackday. It allows users to search the name of the city and get a pic of the city and the weather there.",
       img: "assets/weatherapp.png",
       href: "https://github.com/Amani2392/HacKDay-SALT",
     },
