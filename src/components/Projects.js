@@ -8,7 +8,7 @@ export default function Projects() {
       id: "1",
       icon: "./assets/mobile.png",
       title: "Final Project",
-      desc: "As a graduation project at Salt, my mob and I built an app that displays and manages Salt's company devices. The app is built using React, Google OAuth, Express, Mongoose, JWT, and MongoDB The client code can be found here. and the server code can be found here.",
+      desc: "As a graduation project at Salt, my mob and I built an app that displays and manages Salt's company devices. The app is built using React, Google OAuth, Express, Mongoose, JWT, and MongoDB.",
       img: "assets/finalProject.png",
       href: "https://slap-public.herokuapp.com/",
     },
@@ -67,7 +67,7 @@ export default function Projects() {
                  <a href={d.href} target="_blank" rel="noreferrer"> 
                   <div className="SourceCodeContainer">
                  <img  src="assets/github.png" alt=""/>
-                 <span>Source code</span>
+                 <span>Source code/Demo</span>
                  </div>
                  </a>
                 </div>
