@@ -12,7 +12,7 @@ const Intro = () => {
       backDelay: 1500,
       backSpeed: 60,
 
-      strings: ["JavaScript Developer"],
+      strings: ["Full-stack Developer"],
     });
   }, []);
 
