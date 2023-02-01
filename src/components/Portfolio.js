@@ -49,8 +49,6 @@ const Portfolio = () => {
           <li>Redux</li>
           <li>HTML</li>
           <li>CSS,Scss</li>
-          <h2>Tools and technologies</h2>
-          <li> Git </li>
           <h2>Cloud Platforms</h2>
           <li>MongoD | Atlas | ElephantSQL | Netlify | Heroku | Contentful</li>
         </ul>
