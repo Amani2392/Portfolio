@@ -44,11 +44,19 @@ export default function Projects() {
       img: "assets/vanilla-js-todo.png",
       href: "https://github.com/Amani2392/Todo-app-javaScript-with-state",
     },
+{
+      id: "6",
+      icon: "",
+      title: "Full-stack PHP SQL Todo App",
+      desc: "Todo app to manage student's school projects and collaboration created using PHP relational DB (SQL) & XAMPP.",
+      img: "assets/phptodo.png",
+      href: "https://github.com/Amani2392/Full-stack-PHP-SQL-todo-",
+    },
   ];
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 4)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 5)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
 
