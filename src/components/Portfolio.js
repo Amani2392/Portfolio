@@ -7,7 +7,7 @@ const Portfolio = () => {
       <div className="left">
         <img className="my-pic" src="assets/my-pic.png" alt=""></img>
         <a
-          href="assets/cv.pdf"
+          href="assets/cv Amani.pdf"
           target="_blank"
           class="button-53"
         >
