@@ -34,7 +34,8 @@ const Portfolio = () => {
             Skills <img src="assets/skillsicon.jpeg" alt="" />
           </h1>
           <h2>General</h2>
-          <li>JavaScript</li>
+          <li>JavaScript</li><li>, Servicenow</li><li>, Microsoft 365 </li><li>&
+Azure</li>
           <h2>Backend</h2>
           <li>ExpressJS</li>
           <li>GraphQL</li>
