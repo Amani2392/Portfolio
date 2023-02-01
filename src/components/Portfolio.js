@@ -50,11 +50,7 @@ const Portfolio = () => {
           <li>HTML</li>
           <li>CSS,Scss</li>
           <h2>Tools and technologies</h2>
-          <li>Visual Studio Code</li>
-          <li>Figma</li>
-          <li>Mocha/Jest</li>
           <li> Git </li>
-          <li>AWS</li>
           <h2>Cloud Platforms</h2>
           <li>MongoD | Atlas | ElephantSQL | Netlify | Heroku | Contentful</li>
         </ul>
