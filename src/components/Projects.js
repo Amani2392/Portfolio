@@ -6,6 +6,14 @@ export default function Projects() {
   const data = [
     {
       id: "1",
+      icon: "",
+      title: "Full-stack PHP SQL Todo App",
+      desc: "Todo app to manage student's school projects and collaboration created using PHP relational DB (SQL) & XAMPP.",
+      img: "assets/php.png",
+      href: "https://github.com/Amani2392/Full-stack-PHP-SQL-todo-",
+    },
+    {
+      id: "2",
       icon: "./assets/mobile.png",
       title: "Final Project",
       desc: "As a graduation project at Salt, my mob and I built an app that displays and manages Salt's company devices. The app is built using React, Google OAuth, Express, Mongoose, JWT, and MongoDB.",
@@ -13,7 +21,7 @@ export default function Projects() {
       href: "https://slap-public.herokuapp.com/",
     },
     {
-      id: "2",
+      id: "3",
       icon: "./assets/globe.png",
       title: "Hack Day Project",
       desc: "A fullstack app build with React and Express in eighth hours during my Salt Hackday. It allows users to search the name of the city and get a pic of the city and the weather there.",
@@ -21,7 +29,7 @@ export default function Projects() {
       href: "https://github.com/Amani2392/HacKDay-SALT",
     },
     {
-      id: "3",
+      id: "4",
       icon: "React Redux Todo App",
       title: "React Redux Todo App",
       desc: "A todo react app using Redux for state managment.",
@@ -29,7 +37,7 @@ export default function Projects() {
       href: "https://github.com/Amani2392/Todo-App-with-React-Redux",
     },
     {
-      id: "4",
+      id: "5",
       icon: "",
       title: "React Todo App",
       desc: "A react todo app.",
@@ -37,21 +45,14 @@ export default function Projects() {
       href: "https://github.com/Amani2392/React-todo-app-",
     },
     {
-      id: "5",
+      id: "6",
       icon: "",
       title: "Vanilla JS Todo App",
       desc: "A vanilla JS with state managment.",
       img: "assets/vanilla-js-todo.png",
       href: "https://github.com/Amani2392/Todo-app-javaScript-with-state",
     },
-{
-      id: "6",
-      icon: "",
-      title: "Full-stack PHP SQL Todo App",
-      desc: "Todo app to manage student's school projects and collaboration created using PHP relational DB (SQL) & XAMPP.",
-      img: "assets/phptodo.png",
-      href: "https://github.com/Amani2392/Full-stack-PHP-SQL-todo-",
-    },
+
   ];
 
   const handleClick = (way) => {
