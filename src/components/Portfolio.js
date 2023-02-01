@@ -34,17 +34,18 @@ const Portfolio = () => {
             Skills <img src="assets/skillsicon.jpeg" alt="" />
           </h1>
           <h2>General</h2>
-          <li>JavaScript</li><li>, Servicenow</li><li>, Microsoft 365 </li><li>&
-Azure</li>
+          <li>JavaScript | Servicenow | Microsoft  365 | Azure</li>
           <h2>Backend</h2>
           <li>ExpressJS</li>
+          <li>GlideAjax</li>
           <li>GraphQL</li>
           <li>NodeJS</li>
           <li>Axios</li>
           <li>REST</li>
-          <li>MongoDB | PostgreSQL | Mongoose</li>
+          <li>SQL | MongoDB | PostgreSQL | Mongoose</li>
           <h2>Frontend</h2>
           <li>React</li>
+          <li>Angular</li>
           <li>Redux</li>
           <li>HTML</li>
           <li>CSS,Scss</li>
@@ -52,7 +53,7 @@ Azure</li>
           <li>Visual Studio Code</li>
           <li>Figma</li>
           <li>Mocha/Jest</li>
-          <li> Git</li>
+          <li> Git </li>
           <li>AWS</li>
           <h2>Cloud Platforms</h2>
           <li>MongoD | Atlas | ElephantSQL | Netlify | Heroku | Contentful</li>
